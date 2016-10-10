@@ -1,0 +1,65 @@
+@font-face {
+	font-family: icon;
+	src: url(../fonts/icomoon.ttf);
+}
+body {
+	margin: 0;
+	background: url(../images/ignasi_pattern_s.png);
+}
+.header {
+	background-color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.header-nav-list {
+	padding: 0;
+}
+.header-nav-item {
+	display: inline-block;
+	width: 33%;
+}
+#wrapper {
+
+}
+.content {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	padding-left: 20px;
+}
+.sidebar {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	float: right;
+	background: #ececec;
+}
+.footer {
+	background-color: white;
+	text-align: center;
+}
+.footer-nav-list {
+	padding: 0;
+}
+.footer-nav-item {
+	display: inline-block;
+	width: 33%;
+}
+.twitter:before {
+	font-family: icon;
+	margin-right: 5px;
+	content: "\ea96";
+}
+.github:before {
+	font-family: icon;
+	margin-right: 5px;
+	content: "\eab0";
+}
+.webiste:before {
+	font-family: icon;
+	margin-right: 5px;
+	content: "\e9ca";
+}
+.aide-visuelle {
+	border: 1px black solid;
+}
