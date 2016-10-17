@@ -4,8 +4,15 @@
 }
 body {
 	margin: 0;
+}
+#wrapper {
+	width: 900px;
+	margin: auto;
 	background: url(../images/ignasi_pattern_s.png);
 }
+/* -----------------------------------------------
+header
+----------------------------------------------- */
 .header {
 	background-color: white;
 	text-align: center;
@@ -16,17 +23,23 @@ body {
 }
 .header-nav-item {
 	display: inline-block;
-	width: 33%;
+	width: 290px;
 }
-#wrapper {
-
-}
+/* -----------------------------------------------
+contenu
+----------------------------------------------- */
 .content {
 	display: inline-block;
 	vertical-align: top;
 	width: 75%;
 	padding-left: 20px;
 }
+.content > article {
+	margin: 20px 0;
+}
+/* -----------------------------------------------
+side bar
+----------------------------------------------- */
 .sidebar {
 	display: inline-block;
 	vertical-align: top;
@@ -34,6 +47,9 @@ body {
 	float: right;
 	background: #ececec;
 }
+/* -----------------------------------------------
+footer
+----------------------------------------------- */
 .footer {
 	background-color: white;
 	text-align: center;
