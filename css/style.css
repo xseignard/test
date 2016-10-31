@@ -2,40 +2,65 @@
 	font-family: icon;
 	src: url(../fonts/icomoon.ttf);
 }
+* {
+	box-sizing: border-box;
+}
+.aide-visuelle {
+	border: 1px black solid;
+}
 body {
 	margin: 0;
 }
-#wrapper {
-	width: 900px;
-	margin: auto;
-	background: url(../images/ignasi_pattern_s.png);
+#page {
+	width:760px;
+	margin:0 auto;
 }
+
 /* -----------------------------------------------
 header
 ----------------------------------------------- */
 .header {
-	background-color: white;
+	background-color: #2196F3;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 }
-.header-nav-list {
+.header h1 {
+	margin-top: 0;
+}
+.header ul {
 	padding: 0;
+	margin: 0;
 }
-.header-nav-item {
+.header li {
 	display: inline-block;
-	width: 290px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px #0f0f0f solid;
+	transition: background 0.5s;
 }
+.header li:hover {
+	background-color: #536DFE;
+}
+.header a {
+	text-decoration: none;
+	color: black;
+}
+
 /* -----------------------------------------------
 contenu
 ----------------------------------------------- */
 .content {
 	display: inline-block;
 	vertical-align: top;
-	width: 75%;
+	width: 600px;
 	padding-left: 20px;
 }
-.content > article {
+.content article {
 	margin: 20px 0;
+}
+.content footer {
+	text-align: right;
 }
 /* -----------------------------------------------
 side bar
@@ -43,9 +68,14 @@ side bar
 .sidebar {
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 160px;
 	float: right;
 	background: #ececec;
+}
+.sidebar .mail {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 /* -----------------------------------------------
 footer
@@ -59,7 +89,7 @@ footer
 }
 .footer-nav-item {
 	display: inline-block;
-	width: 33%;
+	width: 200px;
 }
 .twitter:before {
 	font-family: icon;
@@ -75,7 +105,4 @@ footer
 	font-family: icon;
 	margin-right: 5px;
 	content: "\e9ca";
-}
-.aide-visuelle {
-	border: 1px black solid;
 }
